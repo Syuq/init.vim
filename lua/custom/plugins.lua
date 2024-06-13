@@ -4,6 +4,10 @@ local plugins = {
       opts = {
         ensure_installed = {
           "gopls",
+          "deno",
+          "typescript-language-server",
+          "bash-language-server",
+          "rust-analyzer",
         },
       },
     },
